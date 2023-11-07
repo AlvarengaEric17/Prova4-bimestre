@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.imagem {
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    border: solid 2px #12f538;
+}
+
+.nomeFoto {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.centralizar {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    margin-left: 500px;
+    width: 800px;
+    padding: 10px;
+    background: #b8b4b4;
+
+    border-radius: 20px;
+}
+
+.titulo {
+    margin-top: 100px;
+}
+
+.nome {
+    margin-left: 20px;
+}
+
+.comentario {
+    margin-left: -85px;
+}
